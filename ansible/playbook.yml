@@ -1,0 +1,17 @@
+- hosts: "{{ host_or_group }}"
+  vars_files:
+    - ./vars/main.yml
+  tasks: 
+    - name: Read in the vault
+      ansible.builtin.include_vars:
+        file: "{{ github_actions_agent_vaulted_variables }}"
+        name: github_actions_agent
+    - ansible.builtin.include_role:
+        name: jamesjonesconsulting.githubactions_agent_on_podman.agent_setup
+      vars:
+        github_actions_agents: "{{ github_actions_host_agents }}"
+        github_actions_agent_podman_group: "{{ github_actions_agent_host_podman_group }}"
+        github_actions_agent_url: "{{ github_actions_agent_host_url }}"
+        github_actions_agent_registration_token: "{{ token }}"
+
+
