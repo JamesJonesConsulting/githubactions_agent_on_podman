@@ -1,4 +1,4 @@
 collections:
-  - name: https://github.com/JamesJonesConsulting/jamesjonesconsulting.azuredevops_agent_fixes.git
+  - name: https://github.com/JamesJonesConsulting/jamesjonesconsulting.githubactions_agent_on_podman.git
     type: git
     version: main
