@@ -10,6 +10,7 @@ parameters:
       - beebox
       - sganbuild01
       - indpc
+      - jamdb
 
 trigger: none
 extends:
