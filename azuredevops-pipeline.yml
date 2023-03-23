@@ -13,6 +13,7 @@ parameters:
       - jamdb.jamesjonesconsulting.com
       - music.jamesjonesconsulting.com
       - lat5591.jamesjonesconsulting.com
+      - jamtv.jamesjonesconsulting.com
 
 trigger: none
 extends:
