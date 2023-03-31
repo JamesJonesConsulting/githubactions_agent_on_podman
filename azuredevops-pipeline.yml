@@ -14,6 +14,7 @@ parameters:
       - music.jamesjonesconsulting.com
       - lat5591.jamesjonesconsulting.com
       - jamtv.jamesjonesconsulting.com
+      - charlottetv.jamesjonesconsulting.com
 
 trigger: none
 extends:
