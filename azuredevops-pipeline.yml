@@ -15,6 +15,7 @@ parameters:
       - lat5591.jamesjonesconsulting.com
       - jamtv.jamesjonesconsulting.com
       - charlottetv.jamesjonesconsulting.com
+      - computestick.jamesjonesconsulting.com
 
 trigger: none
 extends:
